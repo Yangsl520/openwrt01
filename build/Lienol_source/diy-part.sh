@@ -5,9 +5,6 @@
 # 不要一下就拉取别人一个插件包N多插件的，多了没用，增加编译错误，自己需要的才好
 # 修改IP项的EOF于EOF之间请不要插入其他扩展代码，可以删除或注释里面原本的代码
 
-git kenzo https://github.com/kenzok8/openwrt-packages
-git small https://github.com/kenzok8/small
-
 
 cat >$NETIP <<-EOF
 uci set network.lan.ipaddr='192.168.100.1'                      # IPv4 地址(openwrt后台地址)
