@@ -6,10 +6,6 @@
 # 修改IP项的EOF于EOF之间请不要插入其他扩展代码，可以删除或注释里面原本的代码
 
 
-git kenzo https://github.com/kenzok8/openwrt-packages
-git small https://github.com/kenzok8/small
-
-
 cat >$NETIP <<-EOF
 uci set network.lan.ipaddr='192.168.100.1'                      # IPv4 地址(openwrt后台地址)
 uci set network.lan.netmask='255.255.255.0'                   # IPv4 子网掩码
